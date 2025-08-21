@@ -1,0 +1,84 @@
+.wp-pagenavi {
+  clear: both;
+  padding: 8px 0px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 37px;  
+  word-wrap: break-word;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi span {
+  padding: 8px 10px;
+  margin: 2px;
+  border-radius: 2px;
+  background-color: #424b5d;
+  color: #fff;
+  font-size: 10pt;
+  border: none;
+}
+
+.wp-pagenavi span.current {
+  background-color: #ca8a04;
+}
+
+.wp-pagenavi a:hover {
+  opacity: 0.8;
+}
+
+.appearance-none {
+  appearance: none;
+}
+
+select.filer-select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -10 40 40' fill='white' %3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd' /%3E%3C/svg%3E");
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.menu-desktop > li {
+  display: inline-block;
+}
+
+.menu-desktop .sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  width: 530px;
+  background-color: rgb(31 41 55/var(--tw-bg-opacity));
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  padding: 10px 0;
+  margin-top: -2px;
+}
+
+.menu-desktop .sub-menu li {
+  display: block;
+}
+
+.menu-desktop .menu-item:hover .sub-menu {
+  display: grid;
+}
+
+#wpdcom {
+  max-width: 1400px;
+}
+
+.avatar-phim {
+    max-height: 340px;
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.fac {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
